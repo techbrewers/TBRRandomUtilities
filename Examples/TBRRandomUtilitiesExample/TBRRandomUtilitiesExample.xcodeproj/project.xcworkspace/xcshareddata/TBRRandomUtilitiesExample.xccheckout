@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>5204C9FC-2FD8-44F6-BA9B-63A1946F7FB7</string>
+	<key>IDESourceControlProjectName</key>
+	<string>TBRRandomUtilitiesExample</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>7FEB13A9-5318-4D10-9558-0DBE542B6F2E</key>
+		<string>https://github.com/techbrewers/TBRRandomUtilities.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Examples/TBRRandomUtilitiesExample/TBRRandomUtilitiesExample.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>7FEB13A9-5318-4D10-9558-0DBE542B6F2E</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/techbrewers/TBRRandomUtilities.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>7FEB13A9-5318-4D10-9558-0DBE542B6F2E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>7FEB13A9-5318-4D10-9558-0DBE542B6F2E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>TBRRandomUtilities</string>
+		</dict>
+	</array>
+</dict>
+</plist>
