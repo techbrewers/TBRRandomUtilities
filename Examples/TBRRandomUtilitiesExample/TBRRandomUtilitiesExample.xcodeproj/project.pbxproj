@@ -21,6 +21,8 @@
 		BFBA6B86196FDE3700DD387C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFBA6B68196FDE3700DD387C /* UIKit.framework */; };
 		BFBA6B8E196FDE3700DD387C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BFBA6B8C196FDE3700DD387C /* InfoPlist.strings */; };
 		BFBA6B90196FDE3700DD387C /* TBRRandomUtilitiesExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBA6B8F196FDE3700DD387C /* TBRRandomUtilitiesExampleTests.m */; };
+		BFBA6BB2196FF0C000DD387C /* UIColor+Random.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBA6BAE196FF0C000DD387C /* UIColor+Random.m */; };
+		BFBA6BB3196FF0C000DD387C /* NSString+Random.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBA6BB1196FF0C000DD387C /* NSString+Random.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		BFBA6B8B196FDE3700DD387C /* TBRRandomUtilitiesExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TBRRandomUtilitiesExampleTests-Info.plist"; sourceTree = "<group>"; };
 		BFBA6B8D196FDE3700DD387C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BFBA6B8F196FDE3700DD387C /* TBRRandomUtilitiesExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TBRRandomUtilitiesExampleTests.m; sourceTree = "<group>"; };
+		BFBA6BAD196FF0C000DD387C /* UIColor+Random.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Random.h"; sourceTree = "<group>"; };
+		BFBA6BAE196FF0C000DD387C /* UIColor+Random.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Random.m"; sourceTree = "<group>"; };
+		BFBA6BB0196FF0C000DD387C /* NSString+Random.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Random.h"; sourceTree = "<group>"; };
+		BFBA6BB1196FF0C000DD387C /* NSString+Random.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Random.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +123,8 @@
 				BFBA6B76196FDE3700DD387C /* Main.storyboard */,
 				BFBA6B79196FDE3700DD387C /* ViewController.h */,
 				BFBA6B7A196FDE3700DD387C /* ViewController.m */,
+				BFBA6BAC196FF0C000DD387C /* RandomColor */,
+				BFBA6BAF196FF0C000DD387C /* RandomString */,
 				BFBA6B7C196FDE3700DD387C /* Images.xcassets */,
 				BFBA6B6B196FDE3700DD387C /* Supporting Files */,
 			);
@@ -150,6 +158,26 @@
 				BFBA6B8C196FDE3700DD387C /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BFBA6BAC196FF0C000DD387C /* RandomColor */ = {
+			isa = PBXGroup;
+			children = (
+				BFBA6BAD196FF0C000DD387C /* UIColor+Random.h */,
+				BFBA6BAE196FF0C000DD387C /* UIColor+Random.m */,
+			);
+			name = RandomColor;
+			path = ../../../RandomColor;
+			sourceTree = "<group>";
+		};
+		BFBA6BAF196FF0C000DD387C /* RandomString */ = {
+			isa = PBXGroup;
+			children = (
+				BFBA6BB0196FF0C000DD387C /* NSString+Random.h */,
+				BFBA6BB1196FF0C000DD387C /* NSString+Random.m */,
+			);
+			name = RandomString;
+			path = ../../../RandomString;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,8 +277,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFBA6BB2196FF0C000DD387C /* UIColor+Random.m in Sources */,
 				BFBA6B7B196FDE3700DD387C /* ViewController.m in Sources */,
 				BFBA6B75196FDE3700DD387C /* AppDelegate.m in Sources */,
+				BFBA6BB3196FF0C000DD387C /* NSString+Random.m in Sources */,
 				BFBA6B71196FDE3700DD387C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
